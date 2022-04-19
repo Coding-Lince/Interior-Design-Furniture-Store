@@ -1,0 +1,1012 @@
+
+/*-----------------------GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+/*--------------------------SNIPPETS CARD FOR OWL (BEST SELLING & FEATURED PRODUCTS) & SHOP*/
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/*---------------------SNIPPETS CARD FOR TEAM*/
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/*-----------------------SNIPPETS FOR BLOG-2*/
+@import url(https://fonts.googleapis.com/css?family=Teko:700);
+
+
+/*-----------------------------------------------------------------------------------NAV-FOOT CSS START*/
+/*#343A40 dark*/
+/*#68FF00 green*/
+
+/*NAVBAR*/
+*{
+    font-family: 'Baloo 2', cursive;
+    box-sizing: border-box;
+}
+
+::selection 
+{
+    background-color: #68FF00;/*green*/
+    color: #000;
+}
+
+.nav1
+{
+    font-size: 20px;
+    box-shadow: 0px 1px 8px grey;
+}
+.nav1 .navbar form .btncolor1{
+	color: #68FF00 !important; /*green*/
+}
+.nav1 .navbar form .btn .badge {
+    position: relative;
+    top: -8px;
+    left: -5px;
+    padding: 3px 5px 2px 5px;
+}
+
+/*Top Bar*/
+.topbar
+{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    justify-content: space-between;
+    background-color: #343a40;/*dark*/
+}
+.topbar a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/*Bottom Bar*/
+.bottombar
+{
+    display: flex;
+    margin-top: 25px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    justify-content: space-between;
+    background-color: white;
+}
+.bottombar .copy
+{
+    color: #343a40;/*dark*/
+    font-size: 18px;
+}
+.bottombar .pay a
+{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Footer*/
+.woodfooter
+{
+    color: white;
+    line-height: 200%;
+    padding: 30px 30px;
+    background-color: #343A40;/*dark*/
+}
+.woodfooter .foot1, .foot2, .foot3, .foot4
+{
+    text-align: justify;
+}
+.woodfooter .foot2, .foot3, .foot4
+{
+    padding-top: 46px;
+}
+.woodfooter .foot2
+{
+    margin-left: 50px;
+}
+.woodfooter .foot3
+{
+    margin-left: 10px;
+}
+.woodfooter .foot1 a i 
+{
+    /*display: inline-block;*/
+    color: white;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 7px;
+    margin-left: 15px;
+    background-color: gray;
+}
+.woodfooter .foot1 a i:hover
+{
+    background-color: #68FF00;/*green*/
+}
+.woodfooter .foot1 .imgmargin
+{
+    margin-bottom: 26px;
+}
+.woodfooter .foot1 ul, .foot2 ul, .foot3 ul, .foot4 ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.woodfooter .foot2 ul a, .foot3 ul a, .foot4 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+.woodfooter .foot2 ul a:hover, .foot3 ul a:hover, .foot4 ul a:hover
+{
+    text-decoration: none;
+    color: #68FF00;/*green*/
+}
+.woodfooter h4
+{
+    margin-bottom: 26px;
+}
+
+/*Media Qurey*/
+@media only screen and (max-width:990px /*768px*/) 
+{
+    .woodfooter .foot2, .foot4
+    {
+        margin-left: 10px;
+    }
+}
+
+/*SCROLL UP BUTTON*/
+#topBtn
+{
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  padding-top: 13px;
+  display: none;
+  color: #343A40;/*dark*/
+  background-color: #68FF00;/*green*/
+}
+#topBtn i 
+{
+  font-size: 22px;
+}
+/*-------------------------------------------------------------------------------------NAV-FOOT CSS END*/
+
+
+/*--------------------------------------------------------------------------------------INDEX CSS START*/
+/*----------------------------OWL-2 AD*/
+/* Feel free to change duration  */ 
+.animated  
+{
+  -webkit-animation-duration : 1000 ms  ;
+  animation-duration : 1000 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}  
+
+/* .owl-animated-out - only for current item */ 
+/* This is very important class. Use z-index if you want move Out item above In item */ 
+.owl-animated-out 
+{
+  z-index : 1 
+}
+
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */ 
+.owl-animated-in 
+{
+  z-index : 0 
+}
+
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+.fadeOut  
+{
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+
+/*------------------------------------------SLIDER*/
+.slide1 .slidedetail1, .slidedetail2, .slidedetail3
+{
+	margin: 120px 0px 50px 0px;
+	padding: 20px;
+	border-left: 5px solid; 
+} 
+
+.slide1 .slidea
+{
+	background-color: /*#D7D7D7*/; /*grey*/
+} 
+
+/*----------------------------------------SLIDER BUTTON*/
+.carousel-control-prev-icon, .carousel-control-next-icon 
+{
+    border-radius: 38%;
+    padding: 18px;
+    border: 5px solid white;
+}                         
+
+/*---------------------------------------------------------------------------------SNIPPETS FOR OWLCARDS-1, 3 & SHOP-1, 2, 3*/
+.snip1583 {
+  font-family: 'Fira Sans Extra Condensed', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  /*margin: 10px;*/
+  /*min-width: 230px;*/ 
+  /* max-width: 315px;*/
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.2em;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.snip1583 *,
+.snip1583 *:before,
+.snip1583 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1583 img {
+  max-width: 100%;
+  height: 275px;
+  vertical-align: top;
+}
+
+.snip1583 figcaption {
+  padding: 10px;
+}
+
+.snip1583 h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0 0 4px;
+}
+
+.snip1583 .price {
+  margin: 8px 0;
+  font-weight: 700;
+  color: #68FF00; /*green*/
+  font-size: 1.5rem;
+}
+
+.snip1583 .icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.snip1583 .icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.snip1583 .icons a i {
+  display: block;
+  font-size: 23.52941176px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 0px;
+}
+
+.snip1583 .icons a i:hover {
+  background-color: #4da3e2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.snip1583:hover a,
+.snip1583.hover a {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1583:hover a:nth-child(2),
+.snip1583.hover a:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.snip1583:hover a:nth-child(3),
+.snip1583.hover a:nth-child(3) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.owl1 .owl-carousel .owl-nav button.owl-prev,
+.owl3 .owl-carousel .owl-nav button.owl-prev,
+.shop .owl-carousel .owl-nav button.owl-prev,
+.owl1 .owl-carousel .owl-nav button.owl-next,
+.owl3 .owl-carousel .owl-nav button.owl-next,
+.shop .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 138px;
+    font-size: 30px;
+    background-color: #68ff00;
+    padding: 20px 40px;
+    width: 50px;
+    height: 50px;
+    color: #343A40;/*dark*/
+    border-radius: 50%;
+}
+
+.owl1 .owl-carousel .owl-nav button.owl-next,
+.owl3 .owl-carousel .owl-nav button.owl-next,
+.shop .owl-carousel .owl-nav button.owl-next{
+  right: 0;
+}
+.owl1 .owl-carousel .owl-nav button.owl-prev,
+.owl3 .owl-carousel .owl-nav button.owl-prev,
+.shop .owl-carousel .owl-nav button.owl-prev{
+  left: 0;
+}
+
+/*-------------------OWL1 BEST SELLING PRODUCTS*/
+.owl1
+{
+	/*border: 1px solid black;*/
+	padding: 25px;
+	/*margin: 30px 0px 30px 0px;*/
+}
+/*------------------------------------------------------------------------------ALL UNDERLINE HEADING*/
+.owl1 .underline, .owl3 .underline, .banner1 .underline,
+.faq .underline, .port .underline, .blogs1 .underline,
+.blogs2 .underline, .form_main .form_container .underline,
+.shophead .underline
+{
+	text-decoration: underline;
+  	text-decoration-color: #68FF00;/*green*/
+}
+
+/*----------------------OWL2 AD*/
+.owl2
+{
+	margin: 30px 0px 30px 0px;
+	border-radius: 10px;
+	border: 5px solid #343A40; /*dark*/
+}
+/*.owl2 img
+{
+	width: 100%;
+}*/
+.owl2 .owl2details
+{
+	margin: 10px 0px 10px 0px;;
+}
+
+/*-----------------------OWL3 PRODUCTS*/
+.owl3
+{
+	/*border: 1px solid #000;*/
+	padding: 25px;
+}
+
+/*BANNER1*/
+.banner1
+{
+	background-color: /*#D3D7DA*/;
+}
+.banner1 .bimg1 img
+{
+	width: 100%;
+  height: 478px;
+}
+.banner1 .bdetail1 .pg1
+{
+  	font-size: 18px;
+	text-align: justify;
+}
+@media only screen and (max-width: 768px) 
+{
+	/*BANNER1*/
+	.banner1 .bimg1 img
+	{
+	   height: 255px;
+	}
+}
+/*-------------------------------------------------------------------------------------------INDEX CSS END*/
+
+
+/*--------------------------------------------------------------------------------------ABOUT US CSS START*/
+/*-----------------HEADER*/
+.about1
+{
+	background-image: url('Images/interior3.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+/*-----------------------------------------------------------SERVICES(INDEX & ABOUT US & SHOP)*/
+.services
+{
+	height: 180px;
+}
+.services a
+{
+  color: #000;
+  text-decoration: none;
+}
+.services a:hover
+{
+  color: #68FF00; /*green*/
+  text-decoration: none;
+
+}
+.services i
+{
+	font-size: 50px;
+	padding: 30px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+	transition-duration: 0.3s;
+}
+.services i:hover
+{
+	padding-bottom: 20px;
+}
+.services p
+{
+	/*border: 1px solid #343A40;/*dark*/*/
+	/*border-radius: 5px;*/
+	text-align: justify;
+	transition-delay: 0.1s;
+}
+.services p:hover
+{
+	color: #68FF00; /*green*/
+	/*border: 1px solid #68FF00; /*green*/*/
+}
+.services .pcenter, i
+{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+/*------------------------PROGRESS BAR*/
+.pro1 .pbardetail1 .pg1
+{
+	font-size: 17px;
+	text-align: justify;
+}
+.pro1 .pbar1 .design
+{
+	display: flex;
+	justify-content: space-between;
+}
+/*---------------------BLOG-1*/
+.blog1 .bimg1 img
+{
+	width: 100%;
+}
+.blog1 .bdetail1 .pg1
+{
+	font-size: 23px;
+	text-align: justify;
+}
+/*---------------------BLOG-2*/
+
+@media only screen and (max-width: 768px) 
+{
+	.services
+	{
+		height: 100%;
+	}
+}
+/*----------------------------------------------------------------------------------------ABOUT US CSS END*/
+
+
+/*--------------------------------------------------------------------------------------OUR TEAM CSS START*/
+/*-----------------------HEADER*/
+.team1
+{
+  background-image: url('Images/team8.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.team .pg1
+{
+  background-color: #21232B;/*new dark*/
+  text-align: center;
+}
+
+/*---------------------SNIPPETS CARD FOR TEAM*/
+.snip1495 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 15px;
+}
+.snip1495 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1495 img {
+  opacity: 1;
+  width: 100%;
+  vertical-align: top;
+}
+.snip1495 figcaption {
+  background-color: #21232B;
+  position: absolute;
+  bottom: 5px;
+  z-index: 2;
+  padding: 0px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.snip1495 h3,
+.snip1495 .icons {
+  margin: 0;
+  width: 50%;
+}
+.snip1495 h3 {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.3em;
+  /*text-transform: uppercase;*/
+  padding: 8px 0;
+}
+.snip1495 .icons {
+  text-align: right;
+}
+.snip1495 i {
+  padding: 8px;
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff;
+  opacity: 0.8;
+  border-bottom: 4px solid transparent;
+  margin-bottom: -4px;
+}
+.snip1495 i:hover {
+  opacity: 1;
+  color: #68FF00;/*green*/
+  border-bottom: 4px solid #68FF00;
+}
+.snip1495:hover figcaption .icons,
+.snip1495.hover figcaption .icons {
+  opacity: 1;
+}
+/*----------------------------------------------------------------------------------------OUR TEAM CSS END*/
+
+
+/*------------------------------------------------------------------------------------CONTACT US CSS START*/
+/*-----------------HEADER*/
+.contactus1
+{
+	background-image: url('Images/contact1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+/*-------------------CONTACT US*/
+.contact
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.contact .contact1
+{
+	font-size: 15px;
+	line-height: 200%;
+}
+.contact .contact1 .pg1
+{
+	text-align: justify;
+}
+
+.contact .contact1 ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact .contact1 ul a
+{
+    text-decoration: none;
+    color: #343A40; /*dark*/
+}
+
+.contact .contact1 ul a:hover
+{
+    text-decoration: none;
+    color: #68FF00;/*green*/
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.contact .contact2
+	{
+		margin-top: 50px;
+	}
+}
+/*--------------------------------------------------------------------------------------CONTACT US CSS END*/
+
+
+/*-------------------------------------------------------------------------------------------FAQ CSS START*/         
+/*---------------------FAQ*/
+.faq .pg1
+{
+	text-align: justify;
+}
+.faq .faqimg5 img, .faqimg1 img
+{
+	width: 100%;
+}
+/*---------------------------------------------------------------------------------------------FAQ CSS END*/
+
+
+/*-------------------------------------------------------------------------------------------SHOP CSS START*/
+
+/*---------------------------------------------------------------------------------------------SHOP CSS END*/
+
+
+/*--------------------------------------------------------------------------------------PORTFOLIO CSS START*/
+/*--------------------------PORTFOLIO*/
+.port
+{
+	text-align: justify;
+}
+
+.port .portimg1 img, .port .portimg2 img, .port .portimg3 img
+{
+	width: 100%;
+}
+/*-------------------SCROLLING GALLERY*/
+.gallery .gal-one img
+{
+	width: 100%;
+	height: 200px;
+}
+
+@media only screen and (max-width:768px)
+{
+	/*----------------------PORTFOLIO*/
+	.port .rev1
+	{
+		flex-direction: column-reverse;
+	}
+}
+/*----------------------------------------------------------------------------------------PORTFOLIO CSS END*/
+
+
+
+/*-------------------------------------------------------------------------------------------BLOG CSS START*/
+/*-----------------------SNIPPETS FOR BLOG-2*/
+.snip1563 {
+  background-color: #fff;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 10px 5px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+.snip1563 *,
+.snip1563 *:before,
+.snip1563 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1563 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1563:before,
+.snip1563:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #A34E00;/*Under color brown*/
+  opacity: 0.5;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1563:before {
+  -webkit-transform: skew(30deg) translateX(80%);
+  transform: skew(30deg) translateX(80%);
+}
+
+.snip1563:after {
+  -webkit-transform: skew(-30deg) translateX(70%);
+  transform: skew(-30deg) translateX(70%);
+}
+
+.snip1563 figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 20px 20px 20px 40%;
+}
+
+.snip1563 figcaption:before,
+.snip1563 figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #68FF00;/*Top color green*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.snip1563 figcaption:before {
+  -webkit-transform: skew(30deg) translateX(100%);
+  transform: skew(30deg) translateX(100%);
+}
+
+.snip1563 figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(90%);
+  transform: skew(-30deg) translateX(90%);
+}
+
+.snip1563 h3,
+.snip1563 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1563 h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.snip1563 p {
+  font-size: 0.9em;
+}
+
+.snip1563 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1563:hover h3,
+.snip1563.hover h3,
+.snip1563:hover p,
+.snip1563.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+}
+
+.snip1563:hover:before,
+.snip1563.hover:before {
+  -webkit-transform: skew(30deg) translateX(30%);
+  transform: skew(30deg) translateX(30%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.snip1563:hover:after,
+.snip1563.hover:after {
+  -webkit-transform: skew(-30deg) translateX(20%);
+  transform: skew(-30deg) translateX(20%);
+}
+
+.snip1563:hover figcaption:before,
+.snip1563.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(50%);
+  transform: skew(30deg) translateX(50%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1563:hover figcaption:after,
+.snip1563.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(40%);
+  transform: skew(-30deg) translateX(40%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/*---------------------BLOG-1*/
+.blogs1 .bimg1 img
+{
+	width: 100%;
+}
+.blogs1 .bdetail1 .pg1
+{
+	font-size: 23px;
+	text-align: justify;
+}
+/*---------------------BLOG-2*/
+.blogs2
+{
+	text-align: center;
+}
+/*---------------------------------------------------------------------------------------------BLOG CSS END*/
+
+
+/*-----------------------------------------------------------------------------------REGISTRATION CSS START*/
+.form_main{
+    /*background-color: #f0f0f0;*/
+}
+.container1{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #000;
+    /*width: 800px!important;*/
+    width: 50% !important;
+}
+.form_container{
+    margin: 0px 50px;
+}
+#notify-close{
+    color:red;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.registration-btn{
+    text-align: center;
+}
+.registration-btn .submit_main{
+    display: inline-block;
+    padding: 30px 0;
+}
+
+#form-submit{
+    background-color: green;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+#form-cancel{
+    background-color: red;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+#form-submit:hover{
+    padding: 12px 17px;
+    cursor: pointer;
+}
+#form-cancel:hover{
+    padding: 12px 17px;
+    cursor: pointer;
+}
+.error_main{
+    position: fixed;
+    width: 48%;
+    z-index: 11;
+    display: none;
+}
+.notification-msg{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    box-shadow: 1px 2px 5px #fff;
+}
+#error-msg{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.btn{
+    background-color: #ff5700;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .container
+    {
+        width: 100% !important;
+    }
+    .form_container
+    {
+        margin: 0px 0px;
+    }
+    .error_main
+    {
+        width: 92%;
+    }
+}
+
+/*-------------------------------------------------------------------------------------REGISTRATION CSS END*/
